@@ -1,4 +1,4 @@
-import { products } from '../calculate_proba2/product.js';
+import { products } from './product.js';
 
 function calculateTotal(price, itemId) {
     const festekQty = parseInt(document.getElementById(`festekQty${itemId}`).value);
