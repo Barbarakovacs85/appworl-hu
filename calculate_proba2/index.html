@@ -7,18 +7,29 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="container">
+    <h1>Árkalkulátor</h1>
     <table>
         <thead>
             <tr>
-                <th>Termék</th>
-                <th>Ár</th>
-                <th>Mennyiség</th>
-                <th>Összesen</th>
+                <th>Egyéb munkák</th>
+                <th>Mennyiség m2</th>
+                <th>Munka ára</th>
+                <th>Végösszeg</th>
             </tr>
+            
         </thead>
+       
         <tbody id="productTableBody">
         </tbody>
+        <tr>
+            <th>Összesen</th>
+            <th id="total"></th>
+            <th></th>
+            <th></th>
+        </tr>
     </table>
+    </div>
     <script src="./product.js" type="module"></script>
     <script src="./calculate.js" type="module"></script>
     <script src="./index.js" type="module"></script>
