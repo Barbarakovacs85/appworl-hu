@@ -1,5 +1,4 @@
-import { products } from './product.js';
-import { calculateTotal } from './calculate.js';
+import { products, calculateTotal } from './calculate.js';
 
 function collectModule(){
     for (const product of products) {
@@ -16,4 +15,5 @@ function collectModule(){
         input.addEventListener('input', () => calculateTotal(product.price, product.id));
     }
 }
+
 collectModule();
